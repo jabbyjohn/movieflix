@@ -1,9 +1,51 @@
 import Image from "next/image";
+import link from "next/link";
 
 export default function Home() {
   return (
-    <div>
-        Welcome to my landing page
+<main>
+    <div className="bg-[url(/photo50.png)] h-screen bg-no-repeat bg-cover">
+       <h1 className="text-5xl font-bold text-blue-500 text-center">This is a background Image</h1>
     </div>
-  );
+    <div className="my-5 grid grid-cols-4">
+      <div className="w-100 h-100 rounded-md shadow-md">
+           <Image
+           src="/photo50.png"
+           alt="image"
+           width={200}
+           height={200}
+           className="w-100 h-100 rounded-md"
+           />
+      </div>
+            <div className="w-100 h-100 rounded-md shadow-md">
+           <Image
+           src="/photo50.png"
+           alt="image"
+           width={200}
+           height={200}
+           className="w-100 h-100 rounded-md"
+           />
+      </div>
+            <div className="w-100 h-100 rounded-md shadow-md">
+           <Image
+           src="/photo50.png"
+           alt="image"
+           width={200}
+           height={200}
+           className="w-100 h-100 rounded-md"
+           />
+      </div>
+            <div className="w-100 h-100 rounded-md shadow-md">
+           <Image
+           src="/photo50.png"
+           alt="image"
+           width={200}
+           height={200}
+           className="w-100 h-100 rounded-md"
+           />
+      </div>
+    </div>
+</main>
+
+  )
 }
