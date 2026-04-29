@@ -24,7 +24,7 @@ export default function LoginPage(){
                  </form>
                  <p className="text-gray-500 text-center mt-2">Or sign up with</p>
                  <div className="flex justify-center gap-4 pb-10">
-                   <form action={async()=>{
+                   <form action={async ()=>{
                                   "use server"
                                await signIn("google")
                    }}

@@ -4,13 +4,13 @@ import link from "next/link";
 export default function Home() {
   return (
 <main>
-    <div className="bg-[url(/photo50.png)] h-screen bg-no-repeat bg-cover">
+    <div className="bg-[url(/flixlogo.png)] h-screen bg-no-repeat bg-cover">
        <h1 className="text-5xl font-bold text-blue-500 text-center">This is a background Image</h1>
     </div>
     <div className="my-5 grid grid-cols-4">
       <div className="w-100 h-100 rounded-md shadow-md">
            <Image
-           src="/photo50.png"
+           src="/img1.png"
            alt="image"
            width={200}
            height={200}
@@ -19,7 +19,7 @@ export default function Home() {
       </div>
             <div className="w-100 h-100 rounded-md shadow-md">
            <Image
-           src="/photo50.png"
+           src="/img2.png"
            alt="image"
            width={200}
            height={200}
@@ -28,7 +28,7 @@ export default function Home() {
       </div>
             <div className="w-100 h-100 rounded-md shadow-md">
            <Image
-           src="/photo50.png"
+           src="/img3.png"
            alt="image"
            width={200}
            height={200}
@@ -37,7 +37,7 @@ export default function Home() {
       </div>
             <div className="w-100 h-100 rounded-md shadow-md">
            <Image
-           src="/photo50.png"
+           src="/img4.png"
            alt="image"
            width={200}
            height={200}
